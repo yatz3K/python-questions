@@ -1,7 +1,7 @@
 # Coding Assignments - Session #2 
 
-* [people.json](../session2/src/resources/people.json) is a file that contains names of people along with their ages
-* [age_ranges.json](../session2/src/resources/age_ranges.json) is file that contains a list of people age ranges
+* [people.json](python-questions/session2/src/resources/people.json) is a file that contains names of people along with their ages
+* [age_ranges.json](python-questions/session2/src/resources/age_ranges.json) is file that contains a list of people age ranges
 
 Implement the [assignment1.py](src/assignment1.py) script and its function `run(people_file_path, age_range_file_path)` So that the script will be able to perform the following:
 
@@ -16,8 +16,8 @@ Implement the [assignment1.py](src/assignment1.py) script and its function `run(
 ## Parsing Logic
 
 The purpose of the script logic is to create people groups based on the given age ranges. Each person is placed in a group based on his given age in 
-[people.json](../session2/src/resources/people.json) and the created age group based on the age ranges provided in
-[age_ranges.json](../session2/src/resources/age_ranges.json).
+[people.json](python-questions/session2/src/resources/people.json) and the created age group based on the age ranges provided in
+[age_ranges.json](python-questions/session2/src/resources/age_ranges.json).
 
 ### People
 Each person has a name and age represented in the json file.
