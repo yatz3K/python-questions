@@ -1,9 +1,9 @@
 # Coding Assignments - Session #2 
 
-* [people.json](python-questions/session2/src/resources/people.json) is a file that contains names of people along with their ages
-* [age_ranges.json](python-questions/session2/src/resources/age_ranges.json) is file that contains a list of people age ranges
+* [people.json](session2/src/resources/people.json) is a file that contains names of people along with their ages
+* [age_ranges.json](session2/src/resources/age_ranges.json) is file that contains a list of people age ranges
 
-Implement the [assignment1.py](src/assignment1.py) script and its function `run(people_file_path, age_range_file_path)` So that the script will be able to perform the following:
+Implement the [assignment1.py](session2/src/assignment1.py) script and its function `run(people_file_path, age_range_file_path)` So that the script will be able to perform the following:
 
 1. Accept the two json file path as command line arguments (See [CMD run](#command-line-run) below)
 1. Accept an environment variable called `YAML_OUTPUT_PATH` (See [CMD run](#command-line-run) below)
@@ -16,8 +16,8 @@ Implement the [assignment1.py](src/assignment1.py) script and its function `run(
 ## Parsing Logic
 
 The purpose of the script logic is to create people groups based on the given age ranges. Each person is placed in a group based on his given age in 
-[people.json](python-questions/session2/src/resources/people.json) and the created age group based on the age ranges provided in
-[age_ranges.json](python-questions/session2/src/resources/age_ranges.json).
+[people.json](session2/src/resources/people.json) and the created age group based on the age ranges provided in
+[age_ranges.json](session2/src/resources/age_ranges.json).
 
 ### People
 Each person has a name and age represented in the json file.
@@ -67,7 +67,7 @@ The output `people_by_age_range.yaml` file should look as follows:
 
 
 ## Command Line Run 
-The [assignment1.py](src/assignment1.py) script should be called from the command line along with the file path and environment variable as follows:
+The [assignment1.py](session2/src/assignment1.py) script should be called from the command line along with the file path and environment variable as follows:
 
 ```sh
 # This example assumes you run this command from the root folder of the repo. If not adjust as you need
